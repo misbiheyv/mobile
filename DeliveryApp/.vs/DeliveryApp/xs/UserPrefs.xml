@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{C83A295E-7827-406D-B60E-6E5D8792FB62}|Default" HasHotReloadOverlayBeenDismissed="True">
+  <MonoDevelop.Ide.ItemProperties.DeliveryApp.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Pixel_3a_API_30_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeliveryApp/BuyPage.xaml.cs">
+    <Files>
+      <File FileName="DeliveryApp/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="DeliveryApp/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="DeliveryApp/BuyPage.xaml.cs" Line="119" Column="14" />
+      <File FileName="DeliveryApp/BuyPage.xaml" Line="58" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DeliveryApp" expanded="True">
+            <Node name="DeliveryApp" expanded="True">
+              <Node name="BuyPage.xaml" expanded="True">
+                <Node name="BuyPage.xaml.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="DeliveryApp.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

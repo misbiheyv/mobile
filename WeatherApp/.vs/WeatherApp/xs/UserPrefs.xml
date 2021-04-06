@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{41A95BB5-8449-48B2-A0D3-6B35F5CA619A}|Default" HasHotReloadOverlayBeenDismissed="True">
+  <MonoDevelop.Ide.ItemProperties.WeatherApp.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Pixel_3a_API_30_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp/WeatherApp/App.xaml.cs">
+    <Files>
+      <File FileName="WeatherApp/WeatherApp/App.xaml.cs" Line="37" Column="44" />
+      <File FileName="WeatherApp/WeatherApp/Views/CurrentPage.xaml.cs" Line="35" Column="19" />
+      <File FileName="WeatherApp/WeatherApp/AppShell.xaml.cs" Line="17" Column="79" />
+      <File FileName="WeatherApp/WeatherApp/GlobalManager.cs" Line="21" Column="31" />
+      <File FileName="WeatherApp/WeatherApp/WebLoader.cs" Line="25" Column="35" />
+      <File FileName="WeatherApp/WeatherApp/App.xaml" Line="9" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WeatherApp" expanded="True">
+            <Node name="WeatherApp" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="WeatherApp.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.Views.CurrentPage">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column">
+            <Label Text="{Binding CityName}" FontSize="70" HorizontalTextAlignment="Center"></Label>
+            <StackLayout>
+                <FlexLayout>
+                    <Label Text="{Binding Weather}" FontSize="Large" FlexLayout.Grow="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="Cyan"></Label>
+                    <Image FlexLayout.Grow="1" x:Name="im"  BackgroundColor="Cyan"/>
+                </FlexLayout>
+                <FlexLayout>
+                    <Label Text="MinTemp" HorizontalTextAlignment="Center" FontSize="Large" FlexLayout.Basis="175" BackgroundColor="Cyan"></Label>
+                    <Label Text="{Binding MinTemp}" FontSize="Medium" FlexLayout.Grow="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="Cyan"></Label>
+                </FlexLayout>
+                <FlexLayout>
+                    <Label Text="MaxTemp" HorizontalTextAlignment="Center" FontSize="Large" FlexLayout.Basis="175" BackgroundColor="Aqua"></Label>
+                    <Label Text="{Binding MaxTemp}" FontSize="Medium" FlexLayout.Grow="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="Cyan"></Label>
+                </FlexLayout>
+                <FlexLayout>
+                    <Label Text="WindSpeed" HorizontalTextAlignment="Center" FontSize="Large" FlexLayout.Basis="175" BackgroundColor="Aqua"></Label>
+                    <Label Text="{Binding WindSpeed}" FontSize="Medium" FlexLayout.Grow="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="Cyan"></Label>
+                </FlexLayout>
+                <FlexLayout>
+                    <Label Text="Humidity" HorizontalTextAlignment="Center" FontSize="Large" FlexLayout.Basis="175" BackgroundColor="Aqua"></Label>
+                    <Label Text="{Binding Humidity}" FontSize="Medium" FlexLayout.Grow="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="Cyan"></Label>
+                </FlexLayout>
+            </StackLayout>
+            <Frame FlexLayout.Grow="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Label Text="{Binding Time}" FontSize="100" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+            </Frame>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

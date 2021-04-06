@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.Views.ForecastPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <FlexLayout>
+                <Label Text="Date" HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+                <Label Text="TempMin" HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+                <Label Text="TempMax" HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+                <Label Text="Humidity" HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+                <Label Text="Weather"  HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+            </FlexLayout>
+            <ListView ItemsSource="{Binding Forecasts}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <FlexLayout>
+                                    <Label Text="{Binding DtTxt}" HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+                                    <Label Text="{Binding Main.TempMin}" HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+                                    <Label Text="{Binding Main.TempMax}" HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+                                    <Label Text="{Binding Main.Humidity}" HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+                                    <Label Text="{Binding Weather[0].Main}" HorizontalTextAlignment="Center" FlexLayout.Grow="1"></Label>
+                                </FlexLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
